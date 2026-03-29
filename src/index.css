@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-neutral-200 dark:border-neutral-800;
+  }
+  body {
+    @apply bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100;
+  }
+}
